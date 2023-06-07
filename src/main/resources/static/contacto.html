@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Contactenos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>            
+            <h1 class="header">Contáctenos</h1>
+        </header>
+        <br>
+        <br>
+        <div class="bloque">
+            <br>            
+            <a href="index.html" class="inicio">Inicio</a>
+            <h2 id="subtitulo">Formulario de contacto</h2>
+            <form action="#">
+                <section class="formulario">
+                    <br>
+                    <label>Nombre: </label><input type="text" id="nombre" placeholder="Digite su nombre" size="30" required><br/><br>
+                    <label>Correo electrónico: </label><input type="email" name="email" placeholder="uuu@dddd.ccc" required><br/><br>
+                    <label>Teléfono </label><input type="tel" name="tel" placeholder="" required><br/> <br>
+                    <label>Mensaje </label><textarea id="Mensaje" rows="5" cols="30" required></textarea><br/><br>
+                    <label></label> <input type="checkbox" id="TyC" unchecked required/>Acepto los términos y condiciones<br/><br>
+                    <div class="actionB">
+                        <label></label><input type="reset" name="reset" value="Limpiar"><br/><br>
+                        <label></label><input type="submit" value="Enviar"><br/><br></div>
+
+                </section>
+            </form>
+            <br>
+            <h2 id="subtitulo">Ubicación:</h2>
+            <br>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3630930.5356833604!2d-93.4001289388403!3d4.008102949492802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1686105750231!5m2!1ses!2scr" 
+                    width="350" height="200" 
+                    style="border:0;"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </body>
+</html>
