@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Boleteria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>            
+            <h1 class="header">Boletería</h1>
+        </header>
+        <br>
+        <br>
+        <div class="bloque">
+            <br>            
+            <a href="index.html" class="inicio">Inicio</a>
+            <h2 id="subtitulo">Venta de boletos</h2>
+            <form action="#">
+                <section class="formulario">
+                    <br>
+                    <label>Nombre: </label><input type="text" id="nombre" placeholder="Digite su nombre" size="30" required><br/><br>
+                    <label>Correo electrónico: </label><input type="email" name="email" placeholder="uuu@dddd.ccc" required><br/><br>
+                    <label>Teléfono </label><input type="tel" name="tel" placeholder="" required><br/><br>
+                    <label>Tipo de boleto:</label>
+                    <br>
+                    <label></label>Regular<input type="radio" name="tipoBoleto" value="1" required><br/>
+                    <label></label>Prioritario<input type="radio" name="tipoBoleto" value="2" required><br/><br>
+                    <label>Cantidad de boletos: </label><input type="number" name="cantidadBoletos" value="1" min="1" max="60" required><br/><br>
+                    <label></label> <input type="checkbox" id="TyC" unchecked required/>Acepto los términos y condiciones<br/><br>
+                    <div class="actionB">
+                        <label></label><input type="reset" name="reset" value="Limpiar"><br/><br><br>
+                        <label></label><input type="submit" value="Enviar"><br/><br><br></div>
+                </section>
+            </form>
+        </div>
+    </body>
+</html>
